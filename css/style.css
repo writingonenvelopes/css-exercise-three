@@ -1,3 +1,8 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+  display:block;
+}
+
 body {
   background-color: white;
   font-family: sans-serif;
@@ -6,43 +11,55 @@ body {
 
 .container {
   margin: 0 auto;
-  width: 420px;
+  width: 540px;
+  background-color: #333;
+  padding-left: 75px;
+  padding-right:75px;
+}
+
+.restaurant-list .location .content {
+border-bottom: 1.5px solid gray;
+width: 390px left;
 }
 
 nav {
-  margin: 0 auto;
-  padding: 10px 0 15px 15px;
-  position: fixed;
-  width: 420px;
+  padding: 18px 10px 10px 18px;
+  position:absolute;
+  width: 390px;
+  background-color: black;
+}
+
+.arrow {
+  text-align: right;
+  position: absolute;
+  line-height: 5px;
+  margin: 10px;
+  width: auto;
 }
 
 .restaurant-list {
-background-color: gray;
+background-color: lightgray;
   text-align: left;
+  text-indent: 20px;
   padding-top: 50px;
-  margin: 10px;
+  margin: 10px center;
   line-height: 5px;
 }
-.container {
-  background-color: #333;
-  margin: auto;
-  padding-left: 60px;
-  padding-right:60px;
 
-}
+a {
+   text-decoration: none;
+  }
+
+a:hover{
+    color: blue;
 
 h1 {
-  font-size: 20px;
-  font-weight: bold;
+  font-style: normal;
+  font-size: 18px;
+  font-weight:780;
   }
 
-  h3 {
-    font-size: 16px;
-    font-weight: lighter;
+h3 {
+    font-size: 14px;
+    font-weight:550;
   }
-
-.arrow{
-  text-align: right;
-  line-height: 5px;
-  margin: 10px;
-}
