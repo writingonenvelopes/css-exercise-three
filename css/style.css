@@ -9,6 +9,12 @@ body {
   font-size: 10px;
 }
 
+body, h1, h3, .restaurant-list {
+    font-family: sans-serif;
+    font-style: oblique;
+    
+}
+
 .container {
   margin: 0 auto;
   width: 540px;
@@ -17,7 +23,7 @@ body {
   padding-right:75px;
 }
 
-.restaurant-list .location .content {
+.location {
 border-bottom: 1.5px solid gray;
 width: 390px left;
 }
@@ -31,16 +37,16 @@ nav {
 
 .content {
   display: inline-block;
+  width: 400px left;
 }
 
 .arrow {
   text-align: right;
-  position: absolute;
   line-height: 5px;
   margin: 10px;
-  width: auto;
-  display: inline-block;
-}
+  width:auto;
+  display:inline-block;
+  }
 
 
 .restaurant-list {
