@@ -29,13 +29,19 @@ nav {
   background-color: black;
 }
 
+.content {
+  display: inline-block;
+}
+
 .arrow {
   text-align: right;
   position: absolute;
   line-height: 5px;
   margin: 10px;
   width: auto;
+  display: inline-block;
 }
+
 
 .restaurant-list {
 background-color: lightgray;
@@ -45,13 +51,6 @@ background-color: lightgray;
   margin: 10px center;
   line-height: 5px;
 }
-
-a {
-   text-decoration: none;
-  }
-
-a:hover{
-    color: blue;
 
 h1 {
   font-style: normal;
