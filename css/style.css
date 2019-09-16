@@ -12,7 +12,7 @@ body {
 body, h1, h3, .restaurant-list {
     font-family: sans-serif;
     font-style: oblique;
-    
+
 }
 
 .container {
@@ -37,7 +37,7 @@ nav {
 
 .content {
   display: inline-block;
-  width: 400px left;
+  width: 400px;
 }
 
 .arrow {
@@ -67,4 +67,5 @@ h1 {
 h3 {
     font-size: 14px;
     font-weight:550;
+    font-style:normal;
   }
