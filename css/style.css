@@ -10,8 +10,9 @@ body {
 }
 
 body, h1, h3, .restaurant-list {
-    font-family: sans-serif;
-    font-style: oblique;
+    font-family: 37471687, sans-serif;
+    font-style:oblique;
+    line-height: 20%;
 
 }
 
@@ -37,14 +38,12 @@ nav {
 
 .content {
   display: inline-block;
-  width: 400px;
+  width: 350px;
 }
 
 .arrow {
   text-align: right;
   line-height: 5px;
-  margin: 10px;
-  width:auto;
   display:inline-block;
   }
 
@@ -52,7 +51,6 @@ nav {
 .restaurant-list {
 background-color: lightgray;
   text-align: left;
-  text-indent: 20px;
   padding-top: 50px;
   margin: 10px center;
   line-height: 5px;
@@ -61,11 +59,15 @@ background-color: lightgray;
 h1 {
   font-style: normal;
   font-size: 18px;
-  font-weight:780;
+  font-weight:790;
+  text-indent: 20px;
+  padding-top: 5px;
   }
 
 h3 {
-    font-size: 14px;
+    font-size: 13px;
     font-weight:550;
-    font-style:normal;
+    font-style: normal;
+    line-height: normal;
+    text-indent: 20px;
   }
