@@ -57,6 +57,10 @@ background-color: lightgray;
   width: 100%;
   }
 
+  a:hover {
+  color:green;
+}
+
 h1 {
   font-style: normal;
   font-size: 18px;
