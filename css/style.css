@@ -7,7 +7,7 @@ body {
   background-color: white;
   font-family: sans-serif;
   font-size: 10px;
-}
+  }
 
 body, h1, h3, .restaurant-list {
     font-family: 37471687, sans-serif;
@@ -30,7 +30,7 @@ width: 390px left;
 }
 
 nav {
-  padding: 18px 10px 10px 18px;
+  padding: 18px 12px 12px 18px;
   position:absolute;
   width: 390px;
   background-color: black;
@@ -47,7 +47,6 @@ nav {
   display:inline-block;
   }
 
-
 .restaurant-list {
 background-color: lightgray;
   text-align: left;
@@ -58,7 +57,8 @@ background-color: lightgray;
   }
 
   .restaurant-list :hover {
-  color:blue;
+  background-color: gray;
+  color: white;
 }
 
 h1 {
@@ -67,6 +67,7 @@ h1 {
   font-weight:790;
   text-indent: 20px;
   padding-top: 5px;
+  font-stretch: ultra-expanded;
   }
 
 h3 {
