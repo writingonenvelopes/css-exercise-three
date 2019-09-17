@@ -54,7 +54,8 @@ background-color: lightgray;
   padding-top: 50px;
   margin: 10px center;
   line-height: 5px;
-}
+  width: 100%;
+  }
 
 h1 {
   font-style: normal;
